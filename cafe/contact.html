@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact｜KUZIRA CAFE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><image src="images/logo.svg" alt="KUZIRA CAFE"></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#news">News</a></li>
+                <li><a href="index.html#shop">Opening Hours</a></li>
+                <li><a href="access.html">Access & Map</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ヘッダーここまで -->
+    <h1 class="hero contact">Resevations and Inquiry</h1>
+    <!-- メイン -->
+    <main>
+        <form action="result.html">
+            <p>
+                <label for="kind">Type of Inquiry</label><br>
+                <select name="kind" id="kind">
+                    <option value="1">Reservation</option>
+                    <option value="2">Inquiry about an event</option>
+                    <option value="3">Other</option>
+                </select>
+            </p>
+            <p>
+                Is this your first visit?<br>
+                 <label><input type="radio" name="first" value="yes" checked>Yes</label><br>
+                 <label><input type="radio" name="first" value="no">No, this is not my first visit.</label>
+            </p>
+            <p>
+                How did you hear about us?<br>
+                <label><input type="checkbox" name="how" value="friend">Through an acquaintance.</label><br>
+                <label><input type="checkbox" name="how" value="magazine">Through SNS, website, magazine, etc.</label>
+            </p>
+            <p>
+                <label for="subject">Subject</label><br>
+                <input type="text" name="subject" placeholder="Title" id="subject">
+            </p>
+            <p>
+                <label for="message">Message - Specifics of your inquiry</label><br>
+                <textarea name="message" id="message">
+                </textarea>
+            </p>
+            <p class="submit">
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </main>
+    <!-- メインここまで -->
+    <!--  フッター-->
+    <footer>
+        <div class="gotop">
+            <a href="#top"><image src="images/gotop.svg" alt="Go top of the page"></a>
+        </div>
+        <p class="copyright">&copy; KUZIRA CAFE</p>
+    </footer>
+    <!-- フッターここまで -->
+</body>
+</html>
